@@ -85,7 +85,7 @@ r2l = ['ftp_write','guess_passwd','imap','multihop','phf','spy','warezclient','w
 probing = ['ipsweep','nmap','portsweep','satan']
 normal = ['normal']
 
-ifile = open('kddcup.data','r')             # loading data
+ifile = open('../kddcup.data','r')             # loading data
 raw_data = ifile.readlines()
 ifile.close()
 
